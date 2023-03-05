@@ -5,43 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+<div id="container">
 
-  Your Result
-  76
-  of 100
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+<div class="result">
+ 
+  <h4>Your Result</h4>
+  <h1>76</h1>
+  <span> of 100</span> 
+
+ <h3>Great</h3> 
+  <p>scored higher than 65% of the people who have taken these tests.</p> 
+</div>
+
+<div class="summary">
   
-  Summary
+  <h3>Summary</h3>
 
-  Reaction
-  80 / 100
+  <p class="bgd1"><img src="assets/images/icon-reaction.svg"><span class="Reaction">Reaction</span>  <span class="Number">80</span> / 100</p> 
+  <p class="bgd2"><img src="assets/images/icon-memory.svg"><span class="Memory">Memory</span>  <span class="Number">92</span> / 100</p> 
+  <p class="bgd3"><img src="assets/images/icon-verbal.svg"><span class="Verbal">Verbal</span>  <span class="Number">61</span> / 100</p>  
+  <p class="bgd4"><img src="assets/images/icon-visual.svg"><span class="Visual">Visual</span>  <span class="Number">72</span> / 100</p>  
+  <a class="button" href="#">Continue</a>
 
-  Memory
-  92 / 100
+</div>
+</div>
 
-  Verbal
-  61 / 100
+<div class="attribution">
 
-  Visual
-  72 / 100
+</div>
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://christiangonzalez.netlify.app/">Christian Gonzalez</a>.
+<section class="right"></section>
 
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </body>
 </html>
