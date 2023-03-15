@@ -29,9 +29,10 @@ body {
 
 
 .result h4{
-    margin-top: auto;
+    margin-top: -3%;
     color: hsl(0, 0%, 100%, 60%);
     font-size: 1.8rem;
+    font-weight: 500;
 }
 .circle{
     border-radius: 50%;
@@ -59,12 +60,12 @@ body {
 .result h2{
     font-weight: 800;
     font-size: 2.5rem;
-   margin-top: 0%;
+   margin-top: 7%;
    margin-bottom: 5%;
 }
   .result p{
     color: hsl(0, 0%, 100%, 60%);
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-top: auto;
 } 
@@ -79,9 +80,9 @@ body {
 }
 
 .summary h3{
-    padding-left: 12%;
-    font-weight: 800;
-    font-size: 2rem;
+    padding-left: 13%;
+    font-weight: 700;
+    font-size: 1.5rem;
     margin-bottom: -2%;
     margin-top: -6%;
 }
@@ -125,8 +126,9 @@ ul li p .Number{
 .summary p {
     display: flex;
     padding: 5%;
+    padding-left: 5%;
     color: hsla(0, 0%, 45%, 0.6);
-    font-weight: 700;
+    font-weight: 500;
     border-radius: 14px;
     
 
@@ -185,12 +187,18 @@ ul li p .Number{
         display: flex;
         justify-content: center;
     }
-
+    .result h4{
+        margin-top: 4%;
+        color: hsl(0, 0%, 100%, 60%);
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
    
     .summary h3{
-        padding-left: 30%;
+        display: flex;
+        justify-content: start;
         font-weight: 800;
-        font-size: 2rem;
+        font-size: 1.4rem;
         margin-bottom: -2%;
         margin-top: -6%;
     }
@@ -202,7 +210,7 @@ ul li p .Number{
         padding-top: 10%;
      */
         flex-direction: column;
-        padding: 5%;
+        padding-top: 0%;
 
       }
      .result, .summary{
@@ -210,14 +218,43 @@ ul li p .Number{
         padding: 2%;
         max-width: 20%;
         min-width: 300px; */
-        
+        box-shadow: none;
         border-radius: 10%;
         padding: 2%;
         max-width:100%;     
         min-width: 250px;
-        margin-top: 10%;
+
+        }
+        .summary{
+            margin-top: 10%;
 
         }
     
+        .result p{
+            color: hsl(0, 0%, 100%, 60%);
+            font-size: 1.2rem;
+            text-align: center;
+            margin-top: auto;
+            display: flex;
+            flex-wrap: wrap;
+        } 
+
+
+
+        .circle{
+            border-radius: 50%;
+            padding: 8%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background:  hsl(241, 81%, 54%);
+            
+        }
+        .result h2{
+            font-weight: 700;
+            font-size: 1.8rem;
+           margin-top: 5%;
+           margin-bottom: 5%;
+        }
   }
  
